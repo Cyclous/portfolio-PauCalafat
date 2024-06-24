@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.full-screen {
+  height: 100vh;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)
+  ), rgb(123, 202, 255); /* Fondo naranja con superposición negra */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Centrar texto vertical y horizontalmente */
+  color: white;
+}
+
+.full-screen h1,
+.full-screen h3 {
+  margin: 0;
+}
+
+#about {
+  background-color: #f0f0f0; /* Fondo gris claro para sección de About */
+}
+
+#projects {
+  background-color: #f0f0f0; /* Fondo gris medio para sección de Projects */
+}
+
+#contact {
+  background-color: #d0d0d0; /* Fondo gris oscuro para sección de Contact */
+}

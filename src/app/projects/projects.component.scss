@@ -1,0 +1,21 @@
+.card {
+  text-align: center;
+  border:  white solid 5px;
+  border-radius: 15px;
+}
+img{
+  max-width: 350px;
+  border-radius: 10px;
+}
+
+.card-title {
+  font-size: 1.25rem; /* Ejemplo de tamaño de fuente personalizado */
+}
+
+.card-text {
+  color: #555; /* Ejemplo de color de texto personalizado */
+}
+
+.btn {
+  margin-top: 10px; /* Ejemplo de margen superior para el botón */
+}
